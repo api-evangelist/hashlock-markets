@@ -1,4 +1,4 @@
-# hashlock-markets
+# Hashlock Markets
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,143 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-hashlock-markets is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://hashlock.markets/
+Hashlock Markets provides a non-custodial, peer-to-peer platform for atomic swaps across Bitcoin, Ethereum, Base, Robinhood Chain, TRON, and Solana. Users can request prices, trade directly, and retain full control of private keys, enabling secure cross-chain settlements without bridges or custodial intermediaries.
+
+**Areas:** Finance · Crypto · AtomicSwap · NonCustodial · CrossChain
+
+## Hashlock Markets on APIs.io
+
+Everything profiled for Hashlock Markets is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hashlock-markets/](https://apis.io/providers/hashlock-markets/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [Hashlock Markets Assets API](https://apis.io/apis/hashlock-markets/hashlock-markets-assets-api/) — The Assets API from Hashlock Markets — 1 operation(s) for assets.
+- [Hashlock Markets Keys API](https://apis.io/apis/hashlock-markets/hashlock-markets-keys-api/) — The Keys API from Hashlock Markets — 2 operation(s) for keys.
+- [Hashlock Markets Me API](https://apis.io/apis/hashlock-markets/hashlock-markets-me-api/) — The Me API from Hashlock Markets — 1 operation(s) for me.
+- [Hashlock Markets Rfqs API](https://apis.io/apis/hashlock-markets/hashlock-markets-rfqs-api/) — The Rfqs API from Hashlock Markets — 6 operation(s) for rfqs.
+- [Hashlock Markets Swaps API](https://apis.io/apis/hashlock-markets/hashlock-markets-swaps-api/) — The Swaps API from Hashlock Markets — 9 operation(s) for swaps.
+- [Hashlock Markets Threads API](https://apis.io/apis/hashlock-markets/hashlock-markets-threads-api/) — The Threads API from Hashlock Markets — 4 operation(s) for threads.
+- [Hashlock Markets Tx API](https://apis.io/apis/hashlock-markets/hashlock-markets-tx-api/) — The Tx API from Hashlock Markets — 1 operation(s) for tx.
+- [Hashlock Markets Wallets API](https://apis.io/apis/hashlock-markets/hashlock-markets-wallets-api/) — The Wallets API from Hashlock Markets — 6 operation(s) for wallets.
+- [Hashlock Markets Webhooks API](https://apis.io/apis/hashlock-markets/hashlock-markets-webhooks-api/) — The Webhooks API from Hashlock Markets — 3 operation(s) for webhooks.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Hashlock Markets Webhooks](https://apis.io/asyncapis/hashlock-markets/hashlock-markets-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Hashlock Markets Agentic Access](https://apis.io/agentic-access/hashlock-markets/hashlock-markets-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Asset](https://apis.io/schemas/hashlock-markets/hashlock-markets-asset/)
+- [CreateRfq](https://apis.io/schemas/hashlock-markets/hashlock-markets-create-rfq/)
+- [SigningMaterial](https://apis.io/schemas/hashlock-markets/hashlock-markets-signing-material/)
+- [Swap](https://apis.io/schemas/hashlock-markets/hashlock-markets-swap/)
+- [Thread](https://apis.io/schemas/hashlock-markets/hashlock-markets-thread/)
+- [Webhook](https://apis.io/schemas/hashlock-markets/hashlock-markets-webhook/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Hashlock Markets Context](https://apis.io/jsonld/hashlock-markets/hashlock-markets-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Hashlock Markets API Rules](https://apis.io/rules/hashlock-markets/hashlock-markets-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Hashlock Markets Authentication](https://apis.io/security/hashlock-markets/hashlock-markets-authentication/)
+- [Hashlock Markets Domain Security](https://apis.io/security/hashlock-markets/hashlock-markets-domain-security/)
+- [Hashlock Markets Vulnerability Disclosure](https://apis.io/security/hashlock-markets/hashlock-markets-vulnerability-disclosure/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Hashlock Markets Rate Limits](https://apis.io/rate-limits/hashlock-markets/hashlock-markets-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://hashlock.markets/)
+- [Documentation](https://docs.hashlock.markets/)
+- [Getting started](https://docs.hashlock.markets/quickstart)
+- [API reference](https://hashlock.markets/developers)
+- [Security](https://hashlock.markets/legal/terms)
+- [Terms of service](https://hashlock.markets/legal/terms)
+- [Privacy policy](https://hashlock.markets/legal/privacy)
+
+## API Evangelist rating
+
+**Kin Score 54.4** — strong · rubric 0.27.0 · scored 2026-11-11
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 65.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 46.8 |
+| Developer ergonomics | 46.9 |
+| Access clarity | 21.1 |
+
+**Agent readiness 72.0** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hashlock-markets/](https://apis.io/providers/hashlock-markets/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Hashlock Markets: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hashlock-markets/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
